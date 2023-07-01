@@ -14,6 +14,8 @@ import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(BeeRealistic.MOD_ID)
+
+// jakis tam napis
 public class BeeRealistic {
     public static final String MOD_ID = "beerealistic_mod";
     private static final Logger LOGGER = LogUtils.getLogger();
