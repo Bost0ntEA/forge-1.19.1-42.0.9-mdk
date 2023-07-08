@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "beerealistic_mod:item/HiveFrame"
+  }
+}

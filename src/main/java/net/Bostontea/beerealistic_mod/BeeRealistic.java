@@ -1,6 +1,7 @@
 package net.Bostontea.beerealistic_mod;
 
 import com.mojang.logging.LogUtils;
+import net.Bostontea.beerealistic_mod.item.ModItems;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -21,6 +22,8 @@ public class BeeRealistic {
     private static final Logger LOGGER = LogUtils.getLogger();
     public BeeRealistic() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
